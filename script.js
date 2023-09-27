@@ -101,6 +101,9 @@ function akhiriPermainan() {
         scorePlayer = 0;
         scoreComp = 0;
         skorMaksimal = 3;
+        info.style.width = "150px";
+        info.style.left = "50%";
+        info.style.marginLeft = "-75px";
         info.innerHTML = "";
         const skorCompElement = document.querySelector(".score-comp");
         const skorPlayerElement = document.querySelector(".score-player");
